@@ -1,0 +1,14 @@
+{
+  "name": "k-frte-training-am1a",
+  "version": "1.0.0",
+  "description": "Examentraining F-RTE",
+  "main": "index.js",
+  "scripts": {
+    "sass-dev": "node-sass --watch --output-style expanded --source-map true --indent-type space --indent-width 1  ./process/scss/ --output ./css"
+  },
+  "author": "Arie de Ruijter",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.8.3"
+  }
+}

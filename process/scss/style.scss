@@ -1,0 +1,60 @@
+$body-color: rgb(255, 255, 255);
+$kleur: rgb(17, 17, 17);
+$square-size: 100px;
+
+body {
+  background-color: $body-color;
+
+  h1 {
+    color: $kleur;
+  }
+
+  section {
+    margin-bottom: 1em;
+  }
+}
+
+.container, .container-fluid {
+  border: 1px solid red;
+}
+
+img {
+  height: $square-size;
+  width: $square-size;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 330.98px) {
+  img {
+    border: 5px solid red;
+    width: $square-size/2;
+    height: $square-size/2;
+  }
+}
+
+@media (min-width: 331px) and (max-width: 575.98px) { 
+
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+  
+}
+
