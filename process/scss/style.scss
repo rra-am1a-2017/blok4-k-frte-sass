@@ -1,6 +1,7 @@
 $body-color: rgb(255, 255, 255);
 $kleur: rgb(17, 17, 17);
 $square-size: 100px;
+$backgroundColorBody: rgb(255,0,0);
 
 body {
   background-color: $body-color;
@@ -46,7 +47,7 @@ img {
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) { 
 
-}
+} 
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) { 
@@ -55,6 +56,8 @@ img {
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
-  
+  .card-footer {
+    background-color: lighten($backgroundColorBody, 20%);
+  }
 }
 
